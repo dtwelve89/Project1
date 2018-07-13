@@ -3,9 +3,7 @@ html, body{
 }
 
 body{
-    font:normal 16px/1.6em 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    display:flex;
-    flex-direction:column;
+    font: normal 16px/1.6em 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .jumbotron{
@@ -28,6 +26,26 @@ body{
     flex-shrink:0;
 }
 
-#map-view {
-    height: 400px;
+
+.daysWeather {
+    float: right;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: lightskyblue;
+    padding: 20px;
+
 }
+
+#map-view {
+    position: relative;
+    width: 90%;
+    height: 400px;
+    
+}
+
+.weatherOnly {
+    font-size: 10px;
+    float: left;
+}
+
+
